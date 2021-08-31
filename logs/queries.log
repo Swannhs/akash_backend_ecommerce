@@ -1,0 +1,80 @@
+2021-08-31 15:12:27 Debug: duration=1 rows=1 SHOW TABLES FROM `cake`
+2021-08-31 15:12:27 Debug: duration=19 rows=4 SHOW FULL COLUMNS FROM `products`
+2021-08-31 15:12:27 Debug: duration=1 rows=1 SHOW INDEXES FROM `products`
+2021-08-31 15:12:27 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake' AND kcu.TABLE_NAME = 'products' AND rc.TABLE_NAME = 'products'
+2021-08-31 15:12:27 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'products'
+2021-08-31 15:12:27 Debug: duration=3 rows=4 SHOW FULL COLUMNS FROM `products`
+2021-08-31 15:12:27 Debug: duration=2 rows=1 SHOW INDEXES FROM `products`
+2021-08-31 15:12:27 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake' AND kcu.TABLE_NAME = 'products' AND rc.TABLE_NAME = 'products'
+2021-08-31 15:12:27 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'products'
+2021-08-31 15:12:45 Debug: duration=20 rows=4 SHOW FULL COLUMNS FROM `products`
+2021-08-31 15:12:45 Debug: duration=1 rows=1 SHOW INDEXES FROM `products`
+2021-08-31 15:12:45 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake' AND kcu.TABLE_NAME = 'products' AND rc.TABLE_NAME = 'products'
+2021-08-31 15:12:45 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'products'
+2021-08-31 15:12:45 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products LIMIT 20 OFFSET 0
+2021-08-31 15:12:45 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM products Products
+2021-08-31 15:18:40 Debug: duration=20 rows=4 SHOW FULL COLUMNS FROM `products`
+2021-08-31 15:18:40 Debug: duration=1 rows=1 SHOW INDEXES FROM `products`
+2021-08-31 15:18:40 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake' AND kcu.TABLE_NAME = 'products' AND rc.TABLE_NAME = 'products'
+2021-08-31 15:18:40 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'products'
+2021-08-31 15:18:40 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:18:55 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:18:56 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:18:57 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:19:01 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:19:03 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:48:08 Debug: duration=25 rows=4 SHOW FULL COLUMNS FROM `products`
+2021-08-31 15:48:08 Debug: duration=6 rows=1 SHOW INDEXES FROM `products`
+2021-08-31 15:48:08 Debug: duration=9 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake' AND kcu.TABLE_NAME = 'products' AND rc.TABLE_NAME = 'products'
+2021-08-31 15:48:08 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'products'
+2021-08-31 15:48:08 Debug: duration=1 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:48:42 Debug: duration=2 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products LIMIT 20 OFFSET 0
+2021-08-31 15:48:42 Debug: duration=2 rows=1 SELECT (COUNT(*)) AS `count` FROM products Products
+2021-08-31 15:49:34 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:49:57 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:50:00 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products LIMIT 20 OFFSET 0
+2021-08-31 15:50:00 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM products Products
+2021-08-31 15:51:30 Debug: duration=31 rows=4 SHOW FULL COLUMNS FROM `products`
+2021-08-31 15:51:30 Debug: duration=1 rows=1 SHOW INDEXES FROM `products`
+2021-08-31 15:51:30 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake' AND kcu.TABLE_NAME = 'products' AND rc.TABLE_NAME = 'products'
+2021-08-31 15:51:30 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'products'
+2021-08-31 15:51:30 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:51:52 Debug: duration=1 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:52:03 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
+2021-08-31 15:52:17 Debug: duration=0 rows=1 SELECT Products.id AS `Products__id`, Products.name AS `Products__name`, Products.price AS `Products__price`, Products.imageUrl AS `Products__imageUrl` FROM products Products
